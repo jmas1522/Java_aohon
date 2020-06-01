@@ -1,0 +1,23 @@
+//“Ç‚Ýž‚ñ‚¾“_”‚É‰ž‚¶‚ÄA¬Ñ‚ð”»’è‚·‚éƒvƒƒOƒ‰ƒ€
+//0`59¨•t‰Á/60`69¨‰Â/70`79¨—Ç/80`100¨—D
+
+import java.util.Scanner;
+
+class EX03_08 {
+
+		public static void main(String[] args){
+			Scanner stdIn = new Scanner(System.in);
+			
+			System.out.print("“_”:");
+			int a =stdIn.nextInt();
+			
+			if(a >= 0 && a <= 59)
+				System.out.println("•s‰Â");
+			else if(a >= 60 && a <= 69)
+				System.out.println("‰Â");
+			else if(a >= 70 && a <= 79)
+				System.out.println("—Ç");
+			else if(a >= 80 && a <= 100)
+				System.out.println("—D");
+	}
+}
